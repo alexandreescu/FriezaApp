@@ -1,0 +1,58 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+// Custom code goes here..
+
+// Examples of using the icon mixin:
+// @include icon('user');
+
+.x-list-normal .x-list-item .x-list-item-tpl, .x-list-normal .x-list-item {
+ margin: 1rem 0.75rem;
+ box-shadow: 0px 1px 5px #AAA;
+ width: 94%;
+ border-radius: 1em;
+}
+.center {
+ text-align: center;
+}
+h1 {
+ font-size: 2em;
+}
+h2 {
+ font-size: 1.6em;
+}
+h3 {
+ font-size: 1.3em;
+}
+h4 {
+ font-size: 1.1em;
+}
+.dozertask {
+ font-family: Verdana;
+}
+.dozertasktitle {
+ color: #0000dd;
+ text-decoration: underline;
+ text-shadow: 0.02em 0.02em;
+}
+.dozertaskrequester {
+ font-size: 0.8em;
+ color: #c9;
+}
+.pokepicgrid {
+ float: left;
+ width: 25%;
+}
+.wtf {
+ max-width: 20%;
+ max-height: 20%;
+}
+.x-input-el .x-input-text .x-form-field {
+ resize: none;
+}
+.x-inner .x-form-inner .x-vertical .x-align-center .x-pack-center .x-layout-box .x-scroll-scroller-vertical .x-translatable .x-size-monitored .x-paint-monitored .x-scroll-scroller {
+ background-color: #4296e6;
+}
