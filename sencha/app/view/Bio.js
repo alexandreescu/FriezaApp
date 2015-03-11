@@ -8,12 +8,13 @@ Ext.define('FriezaApp.view.Bio', {
       align: "middle",
       pack: "center",
   },
-  style: 'background-color: #4296e6;',
+  cls: 'apptheme1',
   items: [
   {
       xtype: "titlebar",
       docked: "top",
-      title: "Biography"
+      title: "Biography",
+      cls: 'titletheme1'
   },
   {
       xtype: "container",
@@ -24,8 +25,9 @@ Ext.define('FriezaApp.view.Bio', {
   {
       xtype: "container",
       name: "spooky",
+      cls: 'apptheme2',
       html: '<p>Lord Supreme Architect, also known in mobile mythology as The Dozer, is a master or the coding arts. Having studied under his heroes Tyler Benton and the ColdFusion Demigod, he boasts a wide skillset. Most notable of his skills is his "Are you fucking serious face?"</p><br>(Showcased below)<br><br><img class="wtf" src="http://i3.kym-cdn.com/entries/icons/original/000/005/545/OpoQQ.jpg">',
-      style: "font-size: 1em; font-family: Verdana; padding: 1em; box-shadow: 0em 0em 0.2em black; background-color: whitesmoke;",
+      style: "font-size: 1em; font-family: Verdana; padding: 1em; box-shadow: 0em 0em 0.2em black;",
   }]
  }
 });

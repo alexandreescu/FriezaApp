@@ -35,7 +35,8 @@ Ext.define('FriezaApp.controller.ItemTapController', {
     requestDetails: function(list, index, target, record) {
      Ext.ComponentQuery.query('Main')[0].setTabBar({hidden: true})
      Ext.ComponentQuery.query('DozerTasks')[0].push({
-      html: '<h4>' + record.data.title + '</h4></br><p>' + record.data.request + '</p>'
+      html: '<h3 class="center detailsHeader">' + record.data.title + '</h3></br><p class="detailsDescription">' + record.data.request + '</p>',
+      cls: 'apptheme1'
      });
     }
 

@@ -12,7 +12,8 @@ Ext.define('FriezaApp.view.LSA', {
          {
              xtype: 'titlebar',
              docked: 'top',
-             title: 'Lord Supreme Architect'
+             title: 'Lord Supreme Architect',
+             cls: 'titletheme1'
          },
          {
              xtype: 'container',

@@ -10,8 +10,10 @@ Ext.define('FriezaApp.view.PokemonPictures', {
           }
       }
   },
+  cls: 'apptheme1',
   items: [{
       title: "Poke Pics",
+      cls: 'titletheme1',
       xtype: "dataview",
       store: "PokemonPics",
       itemTpl: '<img class="pokepicgrid" src="{url}">',

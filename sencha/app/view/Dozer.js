@@ -7,22 +7,22 @@ Ext.define('FriezaApp.view.Dozer', {
       type: 'vbox',
       align: 'middle',
       pack: 'center',
-      cls: 'dozin' //need to add css for the dozin class
+      cls: 'apptheme1'
      },
      items: [
          {
           xtype: 'titlebar',
           docked: 'top',
-          title: 'Requesting the Dozer'
+          title: 'Requesting the Dozer',
+          cls: 'titletheme1'
          },
          {
           xtype: 'container',
           items: [
              {
               xtype: 'image',
-              name: 'aaron',
-              src: 'resources/images/aaron.png',
-              width: 200,
+              src: 'resources/images/bulldozer.jpg',
+              width: '100%',
               height: 200,
               margin: 'auto'
              },
@@ -52,7 +52,7 @@ Ext.define('FriezaApp.view.Dozer', {
          },
          {
           xtype: 'button',
-          name: 'cryforhelp',
+          cls: 'button-theme-a',
           text: 'Summon Dozer',
           ui: 'confirm',
           action: 'callforhelp'

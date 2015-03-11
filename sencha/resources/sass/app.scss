@@ -34,13 +34,14 @@ h4 {
  font-family: Verdana;
 }
 .dozertasktitle {
- color: #0000dd;
+ color: #d1ddbd;
  text-decoration: underline;
  text-shadow: 0.02em 0.02em;
 }
 .dozertaskrequester {
- font-size: 0.8em;
- color: #c9;
+ font-size: 0.7em;
+ color: #d1ddbd;
+ font-weight: lighter;
 }
 .pokepicgrid {
  float: left;
@@ -50,9 +51,53 @@ h4 {
  max-width: 20%;
  max-height: 20%;
 }
-.x-input-el .x-input-text .x-form-field {
+.x-input-el.x-input-text.x-form-field {
  resize: none;
 }
-.x-inner .x-form-inner .x-vertical .x-align-center .x-pack-center .x-layout-box .x-scroll-scroller-vertical .x-translatable .x-size-monitored .x-paint-monitored .x-scroll-scroller {
- background-color: #4296e6;
+h2.norequests {
+ font-family: Verdana;
+ padding: 5%;
 }
+h3.detailsHeader {
+ font-size: 1.7em;
+ font-family: Verdana;
+
+}
+.apptheme2 {
+ background-color: #d1ddbd;
+}
+.titletheme1 .x-stretched, .x-inner.x-toolbar-inner.x-horizontal.x-align-stretch.x-pack-start.x-layout-box, .x-tabbar .x-tabbar-inner{
+ background-color: #3e606f;
+}
+.x-toolbar {
+ padding: 0em;
+}
+.x-tab-normal.x-tab.x-iconalign-left.x-tab-icon.x-layout-box-item.x-stretched.x-tab-active {
+ background: #193441;
+}
+.x-tabbar.x-docked-bottom .x-tab .x-button-icon:before, .x-tabbar-dark.x-docked-bottom .x-tab-active .x-button-icon:before, .x-button-label, .x-title .x-innerhtml{
+ color: #d1ddbd;
+}
+.x-tabbar.x-docked-bottom .x-tab .x-button-label {
+ text-rendering: auto;
+}
+.x-title, .x-button .x-button-label {
+ font-weight: normal;
+ letter-spacing: 0.06em;
+}
+.apptheme1, .x-scroll-container.x-size-monitored.x-paint-monitored, .x-inner.x-form-inner.x-vertical.x-align-center.x-pack-center.x-layout-box.x-scroll-scroller-vertical.x-translatable.x-size-monitored.x-paint-monitored.x-scroll-scroller {
+ background-color: #fcfff5;
+}
+.x-button.x-button-confirm.button-theme-a {
+ background-color: #193441;
+ background-image: none;
+ box-shadow: 0em 0em 0.03em 0.05em #f4f3f0;
+}
+ .x-button.x-button-back:before, .x-button.x-button-back:after {
+  background-color: #193441;
+  background-image: none;
+ }
+ .x-toolbar-dark .x-button {
+  background-color: #193441;
+  background-image: none;
+ }

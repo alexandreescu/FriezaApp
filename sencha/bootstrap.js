@@ -668,7 +668,9 @@ Ext.ClassManager.addNameAlternateMappings({
     "Ext.viewport.WP"
   ],
   "FriezaApp.controller.ButtonController": [],
+  "FriezaApp.controller.ChangeController": [],
   "FriezaApp.controller.ItemTapController": [],
+  "FriezaApp.model.RequestModel": [],
   "FriezaApp.store.PokemonPics": [],
   "FriezaApp.store.Request": [],
   "FriezaApp.view.Bio": [],
@@ -1409,7 +1411,9 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
   "FriezaApp.controller.ButtonController": [],
+  "FriezaApp.controller.ChangeController": [],
   "FriezaApp.controller.ItemTapController": [],
+  "FriezaApp.model.RequestModel": [],
   "FriezaApp.store.PokemonPics": [],
   "FriezaApp.store.Request": [],
   "FriezaApp.view.Bio": [

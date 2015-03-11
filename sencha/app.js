@@ -35,6 +35,9 @@ Ext.application({
         'Request',
         'PokemonPics'
     ],
+    models: [
+        'RequestModel'
+    ],
 
     icon: {
         '57': 'resources/icons/Icon.png',

@@ -10,6 +10,7 @@ Ext.define('FriezaApp.view.Main', {
     ],
     config: {
         tabBarPosition: 'bottom',
+        zIndex: 1,
         items: [
             {
              xtype: 'LSA',
